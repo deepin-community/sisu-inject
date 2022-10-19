@@ -1,0 +1,6 @@
+
+junit junit jar s/4\..*/4.x/ * *
+org.testng testng jar s/6\..*/6.x/ * *
+s/javax.annotation/org.apache.geronimo.specs/ s/javax.annotation-api/geronimo-annotation_1.3_spec/  jar s/.*/debian/ * *
+s/org.apache.felix/org.osgi/ org.osgi.core * * * *
+org.testng testng * s/.*/6.x/ * *

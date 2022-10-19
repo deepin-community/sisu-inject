@@ -1,0 +1,4 @@
+02-change-packaging-type.patch
+03-add-missing-dependencies.patch
+06-include-resources.patch
+07-reproducible-index.patch

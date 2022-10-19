@@ -1,0 +1,14 @@
+Description: Sort the classes by name in META-INF/sisu/javax.inject.Named to make the output reproducible
+Author: Emmanuel Bourg <ebourg@apache.org>
+Forwarded: no
+--- a/org.eclipse.sisu.inject/src/org/eclipse/sisu/space/AbstractSisuIndex.java
++++ b/org.eclipse.sisu.inject/src/org/eclipse/sisu/space/AbstractSisuIndex.java
+@@ -158,7 +158,7 @@
+             final BufferedWriter writer = new BufferedWriter( getWriter( INDEX_FOLDER + name ) );
+             try
+             {
+-                for ( final String line : table )
++                for ( final String line : new java.util.TreeSet<String>( table ) )
+                 {
+                     writer.write( line );
+                     writer.newLine();

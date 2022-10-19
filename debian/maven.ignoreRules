@@ -1,0 +1,11 @@
+
+org.eclipse.sisu org.eclipse.sisu.inject.site eclipse-repository * * *
+org.apache.maven.plugins maven-deploy-plugin * * * *
+org.apache.maven.plugins maven-enforcer-plugin * * * *
+org.apache.maven.plugins maven-javadoc-plugin * * * *
+org.codehaus.mojo animal-sniffer-maven-plugin * * * *
+org.eclipse.tycho target-platform-configuration * * * *
+org.eclipse.tycho tycho-maven-plugin * * * *
+org.eclipse.tycho tycho-source-plugin * * * *
+org.jacoco jacoco-maven-plugin * * * *
+org.sonatype.plugins nexus-staging-maven-plugin * * * *
